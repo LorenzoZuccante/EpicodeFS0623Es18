@@ -1,0 +1,227 @@
+body {
+    text-align: center;
+    
+    
+}
+#navcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#FEF7E2;
+    border-radius: 30px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+    
+  }
+  #firstbtn {
+    width: 16em;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 18px;
+    background-color: #F3DF85;
+    border: none;
+    cursor: pointer;
+    width: 10em;
+    
+    
+  }
+  #bee {
+    width: 10%;
+    position: relative;
+    right: 20px;
+  }
+  h1,h2,p,button,h3 {
+    color: #742305;
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+    h2 {color: #742305;
+        font-size: 2em;
+
+}
+  
+  .honeyimg {
+    width: 100%;
+  }
+  .card {width: 100%;
+    border-radius: 30px;
+    background:#FEF7E2;
+    overflow: hidden;
+    margin-bottom: 10%;
+  }
+  .card p:last-child {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+  }
+  .special {
+    text-align: left;
+  }
+  .article {
+    background: #FEF7E2;
+    border-radius: 30px;
+    padding-top: 5%;
+  }
+  .honey2 {
+    width: 90%;
+    margin-bottom: 10%;
+  }
+  @media screen and (min-width: 650px){
+    #navcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: #FEF7E2;
+        border-radius: 30px;
+        padding: 20px; /
+        justify-content: center; 
+      }
+      
+      .row {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      
+      #firstbtn {
+        width: 10em;
+        order: 3;
+        height: 90px;
+        border-radius: 45px;
+      }
+      
+      button {
+        margin: 5px;
+        padding: 8px 16px;
+        border-radius: 18px;
+        background-color: #F3DF85;
+        border: none;
+        cursor: pointer;
+        width: 8em;
+      }
+      #bee {
+        width: 20%;
+        position: relative;
+        right: 20px;}
+
+        .honeyimg{
+            width: 100%;
+          }
+          .card {width: 40%;
+            border-radius: 30px;
+            background:#FEF7E2;
+            overflow: hidden;
+            margin-bottom: 10%;
+          }
+          .card p:last-child {
+            position: relative;
+            left: 100px;
+            bottom: 50px;
+          }
+          .flexcard {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            
+            
+
+          }
+}
+@media screen and (min-width: 960px) {
+    #navcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #FEF7E2;
+      padding: 20px; 
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 10%;
+      height: 100%;
+    }
+  
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    #firstbtn {
+      width: 10em;
+      order: 3;
+      height: 90px;
+      border-radius: 45px;
+    }
+  
+    button {
+      margin: 5px;
+      padding: 8px 16px;
+      border-radius: 18px;
+      background-color: #F3DF85;
+      border: none;
+      cursor: pointer;
+      width: 8em;
+    }
+  
+    #bee {
+      width: 20%;
+      position: relative;
+      right: 20px;
+    }
+  
+    .nonheader {
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%;
+      margin-left: 14%;
+    }
+  
+    header {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 24%;
+      padding: 1vh 2vw 20vh 2vw; 
+    }
+  
+    .honeyimg {
+      width: 100%;
+    }
+  
+    .card {
+      width: 10%;
+      border-radius: 30px;
+      background: #FEF7E2;
+      overflow: hidden;
+      margin-bottom: 10%;
+    }
+  
+    .card p:last-child {
+      position: relative;
+      left: 100px;
+      bottom: 50px;
+    }
+  
+    .flexcard {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+  
